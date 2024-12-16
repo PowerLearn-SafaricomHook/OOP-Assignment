@@ -21,7 +21,7 @@ class Smartwatch(Smartphone):
     
     # Overriding the make_call method
     
-    def track_heart(self):
+    def track_health(self):
         # return f"Tracking heart rate using {self.brand} {self.model}."
         # the join function is used to join the elements of the list into a string
         return f"Tracking: {','.join(self.health_features)}"
@@ -36,6 +36,14 @@ print(phone.make_call("1234567890"))
 
 # Test the send_message method of the Smartphone class
 print(phone.send_message("1234567890", "Hello! How are you?"))
+
+# Test the make_call method of the Smartwatch class
+# this is an inherited method from the Smartphone class
+print(watch.make_call("1234567890")) 
+
+# test the track_health method of the Smartwatch class
+print(watch.track_health())
+
         
 
 
