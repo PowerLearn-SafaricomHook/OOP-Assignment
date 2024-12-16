@@ -67,3 +67,5 @@ class Mammal(Animal):
 # Test Polymorphism
 # this is a list of objects of the Animal class
 animals = [Bird(), Fish(), Mammal()]
+
+
