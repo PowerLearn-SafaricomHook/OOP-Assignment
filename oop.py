@@ -56,3 +56,6 @@ class Animal:
 class Bird(Animal):
     def move(self):
         return "Flying"
+class Fish(Animal):
+    def move(self):
+        return "Swimming"
