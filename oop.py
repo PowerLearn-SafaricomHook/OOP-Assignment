@@ -55,4 +55,4 @@ class Animal:
 
 class Bird(Animal):
     def move(self):
-        return 
+        return "Flying"
