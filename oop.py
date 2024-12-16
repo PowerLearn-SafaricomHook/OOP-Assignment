@@ -67,5 +67,7 @@ class Mammal(Animal):
 # Test Polymorphism
 # this is a list of objects of the Animal class
 animals = [Bird(), Fish(), Mammal()]
-
+# loop through the list of animals
+# in is used to iterate through the list
+for animal in animals:
 
