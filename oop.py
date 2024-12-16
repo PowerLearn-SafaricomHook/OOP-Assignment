@@ -15,5 +15,7 @@ class Smartphone:
         
 # Devired class/ Subclass/ Child class/
 class Smartwatch(Smartphone):
-    
+    def __init__(self, brand, model, price, health_features):
+        super().__init__(brand, model,price)
+        self.health_features = health_features
 
