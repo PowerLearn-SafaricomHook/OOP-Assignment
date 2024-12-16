@@ -52,4 +52,5 @@ class Animal:
 # pass is used to avoid getting an error when there is no code in the method
         pass
 
-
+class Bird(Animal):
+    
