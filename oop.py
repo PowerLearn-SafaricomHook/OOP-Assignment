@@ -30,6 +30,9 @@ class Smartwatch(Smartphone):
     # Create an object of the Smartwatch class
 phone = Smartphone("Samsung", "Galaxy S22", 1000)
 watch = Smartwatch("Apple", "iWatch", 500, ["Heart Rate","Steps","Sleep"])
+
+# Test the method make_call of the Smartphone class
+print(phone.make_call("1234567890"))
         
 
 
