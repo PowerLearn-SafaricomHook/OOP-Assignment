@@ -21,8 +21,14 @@ class Smartwatch(Smartphone):
     
     # Overriding the make_call method
     
-    def track_heart_rate(self):
+    def track_heart(self):
         # return f"Tracking heart rate using {self.brand} {self.model}."
         # the join function is used to join the elements of the list into a string
         return f"Tracking: {','.join(self.health_features)}"
+    
+    # Test the classes
+    # Create an object of the Smartwatch class
+    phone = Smartphone("Samsung", "Galaxy S22", 1000)
+        
+
 
