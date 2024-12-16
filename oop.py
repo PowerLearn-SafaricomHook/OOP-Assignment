@@ -12,3 +12,8 @@ class Smartphone:
         
         def send_message(self, number , message):
             return f"Sending message to {number}: {message}"
+        
+# Devired class/ Subclass/ Child class/
+class Smartwatch(Smartphone):
+    
+
