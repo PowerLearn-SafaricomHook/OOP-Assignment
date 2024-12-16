@@ -59,3 +59,11 @@ class Bird(Animal):
 class Fish(Animal):
     def move(self):
         return "Swimming"
+
+class Mammal(Animal):
+    def move(self):
+        return "running"
+
+# Test Polymorphism
+# this is a list of objects of the Animal class
+animals = [Bird(), Fish(), Mammal()]
