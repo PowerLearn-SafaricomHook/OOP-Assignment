@@ -28,7 +28,8 @@ class Smartwatch(Smartphone):
     
     # Test the classes
     # Create an object of the Smartwatch class
-    phone = Smartphone("Samsung", "Galaxy S22", 1000)
+phone = Smartphone("Samsung", "Galaxy S22", 1000)
+watch = Smartwatch("Apple", "iWatch", 500, ["Heart Rate","Steps","Sleep"])
         
 
 
