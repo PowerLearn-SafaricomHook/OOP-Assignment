@@ -73,5 +73,6 @@ for animal in animals:
      
     # print the class name and the move method of the object
     # __class__ is used to get the class name of the object
+    # __name__ is used to get the name of the class
      print(f"{animal.__class__.__name__} is {animal.move()}.")
 
