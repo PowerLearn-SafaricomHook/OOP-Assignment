@@ -47,4 +47,9 @@ print(watch.track_health())
    
     # Activity 2 : Polymorphidm Challenge
 
+class Animal:
+    def move(self):
+# pass is used to avoid getting an error when there is no code in the method
+        pass
+
 
