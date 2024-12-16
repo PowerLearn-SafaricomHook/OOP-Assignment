@@ -45,7 +45,8 @@ print(watch.make_call("1234567890"))
 print(watch.track_health())
 
    
-    # Activity 2 : Polymorphidm Challenge
+# Activity 2 : Polymorphidm Challenge
+# Polymophism is the ability of an object to take on many forms
 
 class Animal:
     def move(self):
@@ -53,4 +54,5 @@ class Animal:
         pass
 
 class Bird(Animal):
-    
+    def move(self):
+        return 
