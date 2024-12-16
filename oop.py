@@ -7,3 +7,5 @@ class Smartphone:
         self.model= model
         self.price= price
         
+        def make_call(self, number):
+            return f"Dialing {number} using {self.brand} {self.model}."
