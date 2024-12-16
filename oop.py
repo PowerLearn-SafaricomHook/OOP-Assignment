@@ -33,6 +33,9 @@ watch = Smartwatch("Apple", "iWatch", 500, ["Heart Rate","Steps","Sleep"])
 
 # Test the method make_call of the Smartphone class
 print(phone.make_call("1234567890"))
+
+# Test the send_message method of the Smartphone class
+print(phone.send_message("1234567890", "Hello! How are you?"))
         
 
 
