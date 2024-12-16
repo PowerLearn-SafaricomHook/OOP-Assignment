@@ -72,5 +72,6 @@ animals = [Bird(), Fish(), Mammal()]
 for animal in animals:
      
     # print the class name and the move method of the object
+    # __class__ is used to get the class name of the object
      print(f"{animal.__class__.__name__} is {animal.move()}.")
 
