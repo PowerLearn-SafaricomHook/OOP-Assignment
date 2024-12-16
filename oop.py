@@ -18,4 +18,11 @@ class Smartwatch(Smartphone):
     def __init__(self, brand, model, price, health_features):
         super().__init__(brand, model,price)
         self.health_features = health_features
+    
+    # Overriding the make_call method
+    
+    def track_heart_rate(self):
+        # return f"Tracking heart rate using {self.brand} {self.model}."
+        # the join function is used to join the elements of the list into a string
+        return f"Tracking: {','.join(self.health_features)}"
 
