@@ -9,3 +9,6 @@ class Smartphone:
         
         def make_call(self, number):
             return f"Dialing {number} using {self.brand} {self.model}."
+        
+        def send_message(self, number , message):
+            return f"Sending message to {number}: {message}"
